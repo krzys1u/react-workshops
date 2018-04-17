@@ -11,7 +11,7 @@ export class SearchInputNavigation extends Component {
 
     onChange(e) {
         //e.persist();
-        this.delayedCallback(event);
+        this.delayedCallback(e);
     };
 
     render() {
